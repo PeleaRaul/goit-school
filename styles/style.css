@@ -1,0 +1,166 @@
+/*Other Stuff*/
+body {
+    background-color: #e5e5e5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 370px;
+    height: 354px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.shadow {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+li {
+    color: #595959;
+}
+
+.height {
+    line-height: 12pt;
+}
+/*brackets*/
+.b:after {
+    content: "]";
+    color: black;
+    font-weight: bold;
+    padding-left: 1px;
+  }
+  
+.b:before {
+    content: "[";
+    color: black;
+    font-weight: bold;
+    padding-right: 1px;
+  }
+/*links formatting*/
+a.one:link {
+    color: #a7a7a7;
+}
+
+a.one:visited {
+    color: #a7a7a7;
+}
+
+a.one:hover {
+    color: #1c6ee9;
+}
+
+a.two:link {
+    color: #595959;
+}
+
+a.two:visited {
+    color: #595959;
+}
+
+a.two:hover {
+    color: #1c6ee9;
+}
+/*Colors*/
+.orange {
+    color: #e04000;
+}
+
+.gray {
+    color: #595959;
+}
+
+.more-gray {
+    color: #A8A8A8;
+}
+
+/*Workin Experience Idividual Padding*/
+.workepxeriencepadding {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/*Alternative Sections from right!*/
+.projects{
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    width: 509px;
+}
+
+.aboutme {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    width: 342px;
+    line-height: 24px;
+}
+
+.workexperience {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-right: 220px;
+}
+
+.educations {
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: 43px;
+    margin-right: 220px;
+}
+
+/*Main Sections*/
+.main-section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    height: 1319px;
+    margin: 40px auto;
+    box-shadow: 0px 6px 6px #888888;
+}
+
+.rightpart {
+    padding-left: 88px;
+    padding-right: 40px;
+}
+
+/*Side Bar Section*/
+.sidebar-section {
+    width: 370px;
+    height: 1319px;
+    left: 40px;
+    top: 40px;
+    background-color: #1E2939;
+    color: #e5e5e5;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.sidebar-padding-main {
+        margin-left: 40px;
+}
+.ulclass {
+    list-style: none;
+}
+
+.sidebar-list::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+}
+
+.sidebar-list {
+        color:#e5e5e5;
+        line-height: 50%;
+}
+
+
+.tech-skills {
+    padding-top: 25px;
+}
+
+.soft-skills {
+        padding-top: 25px;
+}
